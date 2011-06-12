@@ -16,10 +16,6 @@ USER="$1"
 LCD="."
 RCD="/test-website/"
 
-# smarty: to speed mirroring up (it doesn't change)
-# cache, templates_c: because lftp wants to clean them up
-EXCLUDE=".git smarty cache templates_c"
-
 echo "I am about to mirror the current directory (that is, \"$PWD\")"
 echo "to \"$USER@$HOST:$RCD\". Is that what you want?"
 echo "(if no, press Ctrl-c)"
@@ -32,4 +28,7 @@ cd $RCD;
 mirror --reverse \
        --delete \
        --verbose \
-       --exclude $EXCLUDE"
+       --exclude .git \
+       --exclude cache \
+       --exclude templates_c \
+       --exclude smarty"

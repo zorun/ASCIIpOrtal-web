@@ -1,7 +1,7 @@
 <?php
 
-require("libs/Smarty.class.php");
-require_once("libs/plugins/modifier.markdown.php");
+require("smarty/libs/Smarty.class.php");
+require_once("smarty/libs/plugins/modifier.markdown.php");
 
 $pages = array("home", "download", "screenshot", "contribute", "faq");
 
@@ -12,14 +12,12 @@ $menuitems = array("home" => "Home",
                    "contribute" => "Contribute",
                    "faq" => "FAQ");
 
-if (isset($_GET['page'])) {
-  $page = $_GET['page'];
-  if (!(in_array($page, $pages))) {
-    $page = $pages[0];
+$page = $pages[0];
+
+foreach ($pages as $candidate) {
+  if (isset($_GET["$candidate"])) {
+    $page = $candidate;
   }
-}
-else {
-  $page = $pages[0];
 }
 
 
@@ -40,6 +38,6 @@ $smarty->display('menu.tpl');
 $smarty->display("$page.tpl");
 
 
-$smart->display('footer.tpl');
+$smarty->display('footer.tpl');
 
 ?>

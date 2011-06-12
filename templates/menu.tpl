@@ -6,7 +6,7 @@
     {else}
       <li>
     {/if}
-    <a href="?{$item@key}">$item</a>
+    <a href="?{$item@key}">{$item}</a>
     </li>
   {/foreach}
 </ul>
