@@ -67,7 +67,8 @@ body {
 
 /* Table of content */
 ul.toc {
-  
+    background: #222;
+    padding: 30px;
 }
 
 ul.toc li a, ul.toc li a#visited, ul.toc li a#hover{
@@ -76,6 +77,12 @@ ul.toc li a, ul.toc li a#visited, ul.toc li a#hover{
 }
 
 /* Question/Answer */
+.faqitem {
+    margin-top: 50px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 25px;
+}
+
 .faqitem .question {
   
 }
