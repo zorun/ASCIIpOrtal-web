@@ -1,11 +1,11 @@
-- q: "Question 1"
+- q: "Dummy question (which does not even have a question mark)"
   a: |
    This is a good question. I'll try to answer, but first:
 
      * this is a markdown answer
-     * so you can place <http://link.com> like this
+     * so you can easily place a <http://link.com> like this
   
-- q: "Question 2"
+- q: "Do you ...?"
   a: |
     I don't like this question... sorry!
 
@@ -13,3 +13,14 @@
   a: |
    Do you mean it?
    Well, it looks like you haven't played **ASCIIpOrtal** yet, or you would have found yourself bewildered by its power.
+
+- q: "How does your FAQ system work? It looks wonderful!"
+  a: |
+   We're using a Yaml file to describe questions/answers, and let Smarty do the work of displaying a nice table of content (well, it will be nice with some CSS :) ).
+
+   The cool thing is that answers are written in [Markdown][md] inside the yaml faq file, so it allows complicated presentations in a simple way.
+
+   You can see the original yaml file [here][github-faq] on Github.
+
+   [md]: http://daringfireball.net/projects/markdown/ "Markdown home page"
+   [github-faq]: https://github.com/zorun/ASCIIpOrtal-web/blob/master/content/faq.yaml "faq.yaml on Github"
