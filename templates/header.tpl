@@ -5,5 +5,6 @@
   <meta name="Description" content="ASCIIpOrtal main website" />
   <meta name="Keywords" content="ASCIIpOrtal" />
   <meta equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" media="screen" type="text/css" title="ASCIIpOrtal" href="css/asciiportal.css" />
 </head>
 <body>
