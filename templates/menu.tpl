@@ -1,13 +1,16 @@
 {nocache}
-<ul class="menu">
-  {foreach $menuitems as $item}
-    {if $item@key eq $page}
-      <li id="current_page">
-    {else}
-      <li>
-    {/if}
-    <a href="?{$item@key}">{$item}</a>
-    </li>
-  {/foreach}
-</ul>
+<div id="menu">
+  <ul class="menu">
+    {foreach $menuitems as $item}
+      {if $item@key eq $page}
+        <li id="current_page">
+        {else}
+        <li>
+        {/if}
+      <a href="?{$item@key}">{$item}</a>
+      </li>
+    {/foreach}
+  </ul>
+</div>
 {/nocache}
+<div id="container">
