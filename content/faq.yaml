@@ -1,0 +1,15 @@
+- q: "Question 1"
+  a: |
+   This is a good question. I'll try to answer, but first:
+
+     * this is a markdown answer
+     * so you can place <http://link.com> like this
+  
+- q: "Question 2"
+  a: |
+    I don't like this question... sorry!
+
+- q: "Why does ASCIIpOrtal suck so much?"
+  a: |
+   Do you mean it?
+   Well, it looks like you haven't played **ASCIIpOrtal** yet, or you would have found yourself bewildered by its power.

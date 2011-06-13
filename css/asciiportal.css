@@ -1,3 +1,5 @@
+/* General properties */
+
 body {
   background: black;
   color: white;
@@ -7,6 +9,8 @@ h1 {
   color: red;
 }
 
+
+/* Menu display */
 
 ul.menu {
   background: black;
@@ -37,3 +41,23 @@ ul.menu li#current_page a {
 }
 
 
+/* FAQ-specific style */
+
+/* Table of content */
+ul.toc {
+  
+}
+
+ul.toc li a, ul.toc li a#visited, ul.toc li a#hover{
+  color: green;
+  font-weight: bold;
+}
+
+/* Question/Answer */
+.faqitem .question {
+  
+}
+
+.faqitem .answer {
+   
+}

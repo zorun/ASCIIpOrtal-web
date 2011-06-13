@@ -34,8 +34,14 @@ $smarty->assign('menuitems', $menuitems);
 $smarty->display('header.tpl');
 $smarty->display('menu.tpl');
 
-
-$smarty->display("$page.tpl");
+switch ($page) {
+  // Special case, as we use yaml
+  case "faq":
+    include("faq.php");
+    break;
+  default:
+    $smarty->display("$page.tpl");
+}
 
 
 $smarty->display('footer.tpl');
