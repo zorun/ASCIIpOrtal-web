@@ -32,8 +32,7 @@ $smarty->assign('page', $page);
 $smarty->assign('menuitems', $menuitems);
 
 $smarty->display('header.tpl');
-// Turn off caching completely for the menu
-$smarty->insert('menu.tpl');
+$smarty->display('menu.tpl');
 
 
 $smarty->display("$page.tpl");

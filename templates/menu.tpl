@@ -1,4 +1,4 @@
-
+{nocache}
 <ul class="menu">
   {foreach $menuitems as $item}
     {if $item@key eq $page}
@@ -10,3 +10,4 @@
     </li>
   {/foreach}
 </ul>
+{/nocache}
