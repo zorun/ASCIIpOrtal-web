@@ -33,7 +33,7 @@ body {
 }
 
 #menu ul li a:hover {
-  background: orange;
+  background: red;
 }
  
 #menu ul li#current_page a {

@@ -1,6 +1,11 @@
 
+{* First, a title/presentation in markdown *}
 
-{* We first display a table of questions, with links *}
+{markdown}
+  {include "../content/faq.markdown"}
+{/markdown}
+
+{* We then display a table of questions, with links *}
 
 <ul class="toc">
   {foreach $faq as $faqitem}
@@ -8,7 +13,7 @@
   {/foreach}
 </ul>
 
-{* Then a listing of all Q/A *}
+{* Finally, a listing of all Q/A *}
 
 {foreach $faq as $faqitem}
   <div class="faqitem" id="{$faqitem@index}">
