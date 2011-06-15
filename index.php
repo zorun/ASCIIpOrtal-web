@@ -39,6 +39,10 @@ switch ($page) {
   case "faq":
     include("faq.php");
     break;
+  // Download page
+  case "download":
+    include("download.php");
+    break;
   default:
     $smarty->display("$page.tpl");
 }
