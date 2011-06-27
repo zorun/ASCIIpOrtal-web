@@ -3,45 +3,47 @@
 
 <p>Latest version: <strong>{$version}</strong> ({$release_date})</p>
 
+<table id="dl_list">
+
 {* Windows version *}
-<div class="dl_box">
-  <a href="{$filenames.win32}">
+<tr>
+  <td><a href="{$filenames.win32}">
     <img src="static/windows.png" alt="Windows version" />
-  </a>
-  <strong>Windows</strong>
-  {$sizes.win32}
-</div>
+  </a></td>
+  <td><strong>Windows</strong>
+  {$sizes.win32}</td>
+</tr>
 
 {* Linux version, 32 bits *}
-<div class="dl_box">
-  <a href="{$filenames.linux32}">
+<tr>
+  <td><a href="{$filenames.linux32}">
     <img src="static/linux.png" alt="Linux version" />
-  </a>
-  <strong>Linux (32 bits)</strong>
-  {$sizes.linux32}
-</div>
+  </a></td>
+  <td><strong>Linux (32 bits)</strong>
+  {$sizes.linux32}</td>
+</tr>
 
 {* Linux version, 64 bits *}
-<div class="dl_box">
-  <a href="{$filenames.linux64}">
+<tr>
+  <td><a href="{$filenames.linux64}">
     <img src="static/linux.png" alt="Linux version" />
-  </a>
-  <strong>Linux (64 bits)</strong>
-  {$sizes.linux64}
-</div>
+  </a></td>
+  <td><strong>Linux (64 bits)</strong>
+  {$sizes.linux64}</td>
+</tr>
 
 {* Mac version (need someone to take care of) *}
-<div class="dl_box">
-  <img src="static/mac.png" alt="Mac OS X version" />
-  <strong>Mac OS X</strong>
-  <p>Needs someone to build & package...</p>
-</div>
+<tr>
+  <td><img src="static/mac.png" alt="Mac OS X version" /></td>
+  <td><strong>Mac OS X</strong>
+  <p>Needs someone to build & package...</p></td>
+</tr>
 
 {* Source *}
-<div class="dl_box">
-  <a href="{$filenames.src}">
+<tr>
+  <td><a href="{$filenames.src}">
     <img src="static/source.png" alt="Source" />
-  </a>
-  <strong>Source code</strong>
-  {$sizes.src}
-</div>
+  </a></td>
+  <td><strong>Source code</strong>
+  {$sizes.src}</td>
+</tr>

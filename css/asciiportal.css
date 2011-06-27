@@ -63,6 +63,23 @@ body {
 }
 
 
+/* Download page */
+
+#dl_list {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#dl_list td {
+    padding: 1em;
+}
+
+#dl_list tr:hover {
+    background-color: #222;
+}
+
+
 /* FAQ-specific style */
 
 /* Table of content */
