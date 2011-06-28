@@ -67,11 +67,27 @@ body {
 /* News page */
 
 .newsitem {
-    border: 1px solid #f00;
+    background: #222;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.newsitem:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0px;
+    visibility: hidden;
 }
 
 .newsitem .date {
-/*   text-align: left; */
+    float:right;
+    margin: 0;
+}
+
+.newsitem .back_top {
+    float: left;
 }
 
 /* Download page */
