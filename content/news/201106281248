@@ -1,0 +1,12 @@
+ASCIIpOrtal website coming soon
+===================
+
+As you might have noticed, the new website for ASCIIpOrtal is almost ready, we only need a bit of CSS work and add some content. We should move it to <http://asciiportal.cymonsgames.com> pretty soon.
+
+I wrote it from scratch using the [Smarty][] template engine (PHP), [Markdown][] and a bit of [Yaml][]. A big thank to **cynddl** for its CSS knowledge, and of course to **Joe** for making ASCIIpOrtal in the first place ;)
+
+*zorun*
+
+[smarty]: http://www.smarty.net/ "Smarty template engine"
+[markdown]: http://daringfireball.net/projects/markdown/ "Markdown homepage at daringfireball.net"
+[yaml]: http://www.yaml.org/ "Yaml homepage"
