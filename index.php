@@ -3,10 +3,11 @@
 require("smarty/libs/Smarty.class.php");
 require_once("smarty/libs/plugins/modifier.markdown.php");
 
-$pages = array("home", "download", "screenshot", "contribute", "faq");
+$pages = array("news", "news_all", "about", "download", "screenshot", "contribute", "faq", "making_maps");
 
 // page name => displayed name in the menu
-$menuitems = array("home" => "Home",
+$menuitems = array("news" => "News",
+                   "about" => "About",
                    "download" => "Download",
                    "screenshot" => "Screenshots",
                    "contribute" => "Contribute",
@@ -24,7 +25,7 @@ foreach ($pages as $candidate) {
 $smarty = new Smarty;
 
 //$smarty->debugging = true;
-$smarty->caching = true;
+$smarty->caching = false;
 $smarty->cache_lifetime = 120;
 
 
@@ -42,6 +43,10 @@ switch ($page) {
   // Download page
   case "download":
     include("download.php");
+    break;
+  case "news":
+  case "news_all":
+    include("news.php");
     break;
   default:
     $smarty->display("$page.tpl");

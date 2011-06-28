@@ -49,9 +49,11 @@ body {
     margin: 0px auto;
 }
 
+/*
 #container h1 {
   color: red;
 }
+*/
 
 #container a {
     color: orange;
@@ -62,6 +64,15 @@ body {
     font-style: italic;
 }
 
+/* News page */
+
+.newsitem {
+    border: 1px solid #f00;
+}
+
+.newsitem .date {
+/*   text-align: left; */
+}
 
 /* Download page */
 
