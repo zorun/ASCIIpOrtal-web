@@ -3,6 +3,6 @@
    
 {markdown}
 
-{include "../content/home.markdown"}
+{include "../content/about.markdown"}
 
 {/markdown}
