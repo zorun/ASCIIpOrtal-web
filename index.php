@@ -3,13 +3,13 @@
 require("smarty/libs/Smarty.class.php");
 require_once("smarty/libs/plugins/modifier.markdown.php");
 
-$pages = array("news", "news_all", "about", "download", "screenshot", "contribute", "faq", "making_maps");
+$pages = array("news", "news_all", "about", "download", "features", "contribute", "faq", "making_maps");
 
 // page name => displayed name in the menu
 $menuitems = array("news" => "News",
                    "about" => "About",
                    "download" => "Download",
-                   "screenshot" => "Screenshots",
+                   "features" => "Features",
                    "contribute" => "Contribute",
                    "faq" => "FAQ");
 
