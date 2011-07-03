@@ -48,6 +48,9 @@ switch ($page) {
   case "news_all":
     include("news.php");
     break;
+  case "features":
+    include("features.php");
+    break;
   default:
     $smarty->display("$page.tpl");
 }
