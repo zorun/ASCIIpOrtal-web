@@ -107,6 +107,22 @@ body {
 }
 
 
+/* Features page */
+
+#objects {
+    border-collapse: collapse;
+}
+
+#objects td, #objects th {
+    border: 1px solid white;
+    text-align: center;
+}
+
+#objects td {
+    padding: 10px 5px;
+}
+
+
 /* FAQ-specific style */
 
 /* Table of content */

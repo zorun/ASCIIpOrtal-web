@@ -21,18 +21,18 @@ objects:
  - [duplicator, Duplicator]
 
 descriptions:
- player:
-  - the player is given a **portal gun** that can connect together a {yellow portal}[portaly] and a {blue portal}[portalb].
-  - the player can be killed by {boulders}[boulder], {fire} and {spikes}.
-  - the player cannot pass through {chain-link fences}[chainlink].
- portalb:
-  - portals are fired with the **portal gun**.
-  - it can be connected to the {yellow portal}[portaly].
-  - portals can only be placed on {sticky walls}[sticky].
- portaly:
-  - it can be connected to the {blue portal}[portalb].
- cube:
-  - your best friend.
-  - they can pass through {portals}[portalb].
-  - they can trigger {switches}[switch].
-  - they can stop {boulders}[boulder].
+ player: |
+  the player is given a **portal gun** that can connect together a {yellow portal}[portaly] and a {blue portal}[portalb].
+  the player can be killed by {boulders}[boulder], {fire} and {spikes}.
+  the player cannot pass through {chain-link fences}[chainlink].
+ portalb: |
+  portals are fired with the **portal gun**.
+  it can be connected to the {yellow portal}[portaly].
+  portals can only be placed on {sticky walls}[sticky].
+ portaly: |
+  it can be connected to the {blue portal}[portalb].
+ cube: |
+  your best friend.
+  they can pass through {portals}[portalb].
+  they can trigger {switches}[switch].
+  they can stop {boulders}[boulder].

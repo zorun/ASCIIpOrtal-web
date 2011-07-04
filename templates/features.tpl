@@ -10,13 +10,17 @@
 
 {* then actual content *}
 
-{markdown}
+<table id="objects">
+<tr>
+  <th>Name</th>
+  <th>Picture</th>
+  <th>Description</th>
+</tr>
 {foreach $objs as $obj}
-<h3 id="{$obj[0]}"><a title="Permanent link to {$obj[1]}" href="#{$obj[0]}"><img alt="{$obj[0]}" src="static/objects/{$obj[0]}.png" /></a> {$obj[1]}</h3>
-
-{foreach $descriptions[$obj[0]] as $desc}
-* {$desc}
+<tr>
+  <td id="{$obj[0]}">{$obj[1]}</td>
+  <td><a title="Permanent link to {$obj[1]}" href="#{$obj[0]}"><img alt="{$obj[0]}" src="static/objects/{$obj[0]}-big.png" /></a></td>
+  <td>{markdown}{$descriptions[$obj[0]]}{/markdown}</td>
+</tr>
 {/foreach}
-
-{/foreach}
-{/markdown}
+</table>
