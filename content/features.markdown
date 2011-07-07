@@ -1,18 +1,14 @@
 
+Features
+=========
+
+All the nice features of ASCIIpOrtal... *(TODO)*
 
 
-World objects
-=============
+Objects description
+===================
 
-* ![player][player] Player
- * can pass through portals ![portal][portal]
+In ASCIIpOrtal, you will encounter and interact with various objects. The following table describes the main properties of these. It is *not* meant to be exhaustive; you will need to play ASCIIpOrtal and experiment to discover some non-obvious tricks!
 
-* ![companion cube][cube] Companion cube
- * can pass through portals
- * pla
- * c
+At the moment, this table is not complete; if you're willing to contribute, feel free to submit a patch (the relevant file is [features.yaml](https://github.com/zorun/ASCIIpOrtal-web/blob/master/content/features.yaml)).
 
-
-
-[cube]: static/objects/fr.png
-[player]: static/objects/fr.png

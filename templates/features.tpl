@@ -8,7 +8,14 @@
 </style>
 
 
-{* then actual content *}
+{* then actual content (static text first) *}
+{markdown}
+  {include "../content/features.markdown"}
+{/markdown}
+
+
+
+{* then the neat objects table *}
 
 <table id="objects">
 <tr>
