@@ -20,12 +20,14 @@
 <table id="objects">
 <tr>
   <th>Name</th>
+  <th>Representation in map file</th>
   <th>Picture</th>
   <th>Description</th>
 </tr>
 {foreach $objs as $obj}
 <tr>
   <td id="{$obj[0]}">{$obj[1]}</td>
+  <td><strong>{$obj[2]}</strong></td>
   <td><a title="Permanent link to {$obj[1]}" href="#{$obj[0]}"><img alt="{$obj[0]}" src="static/objects/{$obj[0]}-big.png" /></a></td>
   <td>{markdown}{$descriptions[$obj[0]]}{/markdown}</td>
 </tr>
