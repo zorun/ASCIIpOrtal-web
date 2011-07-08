@@ -6,7 +6,7 @@ objects: # [name, short description, representation in map file]
  - [cube, Companion cube, "&"]
  - [wall, Normal wall, "N"]
  - [sticky, Sticky wall, "#"]
- - [boulder, Boulder, "O"]
+ - [boulder, Boulder, "O, <, >"]
  - [switch, Switch, "A"]
  - [doorp, Permanent door, "a"]
  - [doorm, Momentary door, "a"]
@@ -19,8 +19,11 @@ objects: # [name, short description, representation in map file]
  - [treadl, Moving walkway (left), "("]
  - [treadr, Moving walkway (right), ")"]
  - [duplicator, Duplicator, "="]
+ - [platform, Moving platform, "[, ], ^, v"]
 
 descriptions:
+ platform: |
+  These moving platforms allow you to travel easily across a level; that's especially true about up-down platforms. {Portals}[portalb] can stick on a platform, provided it is large enough. Platforms were added in 1.3-beta7. 
  player: |
   the player is given a **portal gun** that can connect together a {yellow portal}[portaly] and a {blue portal}[portalb].
   the player can be killed by {boulders}[boulder], {fire} and {spikes}.
