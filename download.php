@@ -30,7 +30,8 @@ if (isset($page) && $page == "download") {
                          array('src' => "$version/asciiportal-$version-src.tar.gz",
                                'win32' => "$version/asciiportal-$version-win32.zip",
                                'linux32' => "$version/asciiportal-$version-linux32.tar.xz",
-                               'linux64' => "$version/asciiportal-$version-linux64.tar.xz"));
+                               'linux64' => "$version/asciiportal-$version-linux64.tar.xz",
+                               'osx' => "$version/asciiportal-$version-osx.dmg"));
 
   // check the sizes of the files
   $sizes = array_map("get_size", $filenames);

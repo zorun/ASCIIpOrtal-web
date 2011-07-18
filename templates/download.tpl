@@ -32,11 +32,13 @@
   {$sizes.linux64}</td>
 </tr>
 
-{* Mac version (need someone to take care of) *}
+{* Mac version (cynddl is responsible) *}
 <tr>
-  <td><img src="static/mac.png" alt="Mac OS X version" /></td>
+  <td><a href="{$filenames.osx}">
+    <img src="static/mac.png" alt="Mac OS X version" />
+  </a></td>
   <td><strong>Mac OS X</strong>
-  <p>Needs someone to build & package...</p></td>
+  {$sizes.osx}</td>
 </tr>
 
 {* Source *}
