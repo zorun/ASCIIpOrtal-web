@@ -8,7 +8,7 @@ This release brings the following changes:
 
 * loads of bugfixes
 * a lot of reorganization in the map packs (proper descriptions, sorted by difficulty, etc)
-* an OS X release, thanks to cynddl!
+* an **OS X release**, thanks to cynddl!
 * Cymon is back to the project for real, to make ASCIIpOrtal even better! :)
 
 However, this is still a beta, so please report bugs as usual (on GitHub's issue tracker at <https://github.com/cymonsgames/ASCIIpOrtal/issues>)
