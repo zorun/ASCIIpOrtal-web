@@ -1,0 +1,25 @@
+
+1.3-beta7 release
+=================
+
+We are pleased to announce you the 1.3-beta7 release of ASCIIpOrtal!
+
+This release brings the following changes:
+
+* loads of bugfixes
+* a lot of reorganization in the map packs (proper descriptions, sorted by difficulty, etc)
+* an OS X release, thanks to cynddl!
+* Cymon is back to the project for real, to make ASCIIpOrtal even better! :)
+
+However, this is still a beta, so please report bugs as usual (on GitHub's issue tracker at <https://github.com/cymonsgames/ASCIIpOrtal/issues>)
+
+
+For the next release, we are willing to implemented:
+
+* a basic **window manager** (yeah, you've surely noticed the ugly dialog when selecting a map pack... it's waiting for that window manager)
+* a brand new **game engine**. The current one is getting impossible to improve (see the next point ;) ). We are going to do our best not to break existing maps, but we can't promise everything will be the same...
+* **moving platforms**, see <http://cymonsgames.com/forum/index.php?topic=1298.0>
+
+Also, getting this new website up and running is on our TODO-list. If you have any idea on how to improve it (most notably, design), feel free to join us on [IRC](irc://irc.freenode.net/#asciiportal) ([web-based client](http://webchat.freenode.net?channels=asciiportal)), or on the forums, or on Github...
+
+*zorun*
